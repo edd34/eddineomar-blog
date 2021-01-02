@@ -1,7 +1,7 @@
 <template>
   <footer class="site-footer">
-    {{ $siteConfig.siteName }} &copy; {{ new Date().getFullYear() }} - Tout
-    droit réservé
+    {{ $siteConfig.siteName }} &copy; {{ new Date().getFullYear() }} - Tous
+    drois réservés
     <br />
     Conçus avec <span style="color: #e25555;">&#9829;</span> grâce à Nuxt.js et
     Netlify. Inspiré du template
