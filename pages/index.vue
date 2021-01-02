@@ -6,7 +6,7 @@
         class="button is-primary"
         @click="$eventBus.$emit('modal-triggered', 'newsletter-modal')"
       >
-        Subscribe To Newsletter
+        Inscrivez vous à la Newsletter
       </button>
     </site-hero>
     <main-section theme="one-column">
@@ -31,7 +31,7 @@ export default {
   name: 'HomePage',
   head() {
     return {
-      title: `Home | ${this.$siteConfig.siteName}`
+      title: `Accueil | ${this.$siteConfig.siteName}`
     }
   },
   components: {

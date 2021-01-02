@@ -1,8 +1,8 @@
 <template>
   <div id="contact-page" class="page-wrapper contact-page content-page">
     <site-hero
-      title="Contact Us"
-      subtitle="Example Contact Page"
+      title="Contactez moi"
+      subtitle="Je vous répondrai très rapidement"
       image="/uploads/contact-hero.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
@@ -11,10 +11,11 @@
           <div class="tile is-parent">
             <article class="tile is-child box">
               <p class="title">
-                Hello!
+                Salut !
               </p>
               <p class="subtitle">
-                What can I do for you?
+                Une question, une remarque ? N'hésitez pas, je serai ravis de
+                vous répondre 🙂
               </p>
               <figure class="image is-1by1 ">
                 <opti-image
@@ -28,15 +29,14 @@
               <div class="content">
                 <p>
                   <strong>
-                    Edit this page in<code>/pages/contact.vue</code>to fit your
-                    needs.
+                    "Skills are cheap, passion is priceless" (Gary Vaynerchuck)
                   </strong>
                 </p>
                 <p>
-                  This form doesn't actually work but would be easy enough to
-                  slap an action on to have it post wherever you'd like. Or put
-                  the netlify attribute on it and have netlify handle all your
-                  form submissions...
+                  Passionné de l'ingénierie logicielle, l'IT, la tech,l'Open
+                  Source, le business... mais aussi curieux, autodidacte, j'ai
+                  décidé de créer ce blog afin de partager sur les sujets qui
+                  m'intéressent.
                 </p>
               </div>
             </article>
@@ -50,7 +50,7 @@
       </template>
       <template v-slot:sidebar>
         <h3 class="subtitle is-4">
-          Latest Posts
+          Derniers posts
         </h3>
         <!-- Latest Posts -->
         <posts-grid :per-row="1" :number="2" />

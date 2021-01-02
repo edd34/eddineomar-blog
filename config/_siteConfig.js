@@ -9,8 +9,8 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Awake',
-  tagline: 'A Nuxt.js Theme for Netlify CMS',
+  siteName: 'Eddine Omar',
+  tagline: 'Développement logiciel et tutos',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
@@ -19,7 +19,7 @@ export default {
   },
   mainMenu: [
     {
-      name: 'About',
+      name: 'À propos',
       link: '/about'
     },
     {
@@ -27,17 +27,17 @@ export default {
       link: '/contact'
     },
     {
-      name: 'Categories',
+      name: 'Catégories',
       link: '/categories'
     },
     {
-      name: 'Github Repo',
-      link: 'https://github.com/danielkellyio/awake-template',
+      name: 'Github',
+      link: 'https://github.com/edd34',
       target: '_blank'
     },
     {
-      name: 'Awake+ Premium',
-      link: 'https://awake-premium-lp.netlify.com/',
+      name: 'Youtube',
+      link: 'https://www.youtube.com/channel/UC_ll5CLLIAgAX4pbEd7OoqQ',
       target: '_blank'
     }
   ],
@@ -67,14 +67,14 @@ export default {
   // Newsletter Subscribe
   newsletter: {
     on: true,
-    heading: 'Subscribe to Our Newsletter',
-    btnText: 'Subscribe',
+    heading: 'Inscrivez vous à la newsletter',
+    btnText: "Je m'inscris",
     // Can be the form action on a mail chimp form, a hubspot form,
     // or any other url you want to post the form data to
     mailchimp: {
       on: true,
       formAction:
-        'https://danielkelly.us3.list-manage.com/subscribe/post?u=d3c2e762b66a2353d0bc29bf3&amp;id=2abeaa06e0'
+        'https://eddineomar.us18.list-manage.com/subscribe/post?u=3c1932d78ccf6720f514fd974&amp;id=ed12e7d2c6'
     },
     custom: {
       on: false,

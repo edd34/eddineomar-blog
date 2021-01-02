@@ -2,9 +2,9 @@
   <form>
     <!-- Name -->
     <div class="field">
-      <label class="label is-medium">Name</label>
+      <label class="label is-medium">Nom</label>
       <div class="control has-icons-left">
-        <input class="input is-medium" type="text" placeholder="John Smith" />
+        <input class="input is-medium" type="text" placeholder="Jean Michel" />
         <span class="icon is-small is-left">
           <font-awesome-icon icon="user" />
         </span>
@@ -17,7 +17,7 @@
         <input
           class="input is-medium"
           type="email"
-          placeholder="you@email.com"
+          placeholder="vous@email.fr"
         />
         <span class="icon is-small is-left">
           <font-awesome-icon icon="envelope" />
@@ -26,12 +26,12 @@
     </div>
     <!-- Subject -->
     <div class="field">
-      <label class="label is-medium">Subject</label>
+      <label class="label is-medium">Objet</label>
       <div class="control has-icons-left">
         <input
           class="input is-medium"
           type="text"
-          placeholder="Brief Summary"
+          placeholder="De quoi s'agit-il ?"
         />
         <span class="icon is-small is-left">
           <font-awesome-icon icon="briefcase" />
@@ -44,14 +44,14 @@
       <div class="control">
         <textarea
           class="textarea"
-          placeholder="Detailed description of your comment, request, etc"
+          placeholder="Un peu plus de détail concernant votre question, commentaire, requête etc.."
           rows="8"
         ></textarea>
       </div>
     </div>
     <div class="control">
       <button class="button is-primary">
-        Contact Us
+        Envoyer
       </button>
     </div>
   </form>

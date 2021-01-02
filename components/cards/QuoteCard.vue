@@ -2,20 +2,20 @@
   <div class="card quote-card">
     <div class="card-content">
       <p class="title">
-        “Always code as if the guy who ends up maintaining your code will be a
-        violent psychopath who knows where you live.”
+        “What you think you become. What youfeel you attract. What you imagine
+        you create.”
       </p>
       <p class="subtitle">
-        ~ Martin Golding
+        ~ Buddha
       </p>
     </div>
-    <footer class="card-footer">
+    <!-- <footer class="card-footer">
       <div class="card-footer-item">
-        <span> Share on <a href="#">Twitter</a> </span>
+        <span> Partagez sur <a href="#">Twitter</a> </span>
       </div>
       <div class="card-footer-item">
-        <span> Share on <a href="#">Facebook</a> </span>
+        <span> Partager sur <a href="#">Facebook</a> </span>
       </div>
-    </footer>
+    </footer> -->
   </div>
 </template>

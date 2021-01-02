@@ -16,7 +16,7 @@ export default {
   computed: {
     title() {
       return (
-        this.$siteConfig.newsletter.heading || 'Subscribe to Our Newsletter'
+        this.$siteConfig.newsletter.heading || 'Inscrivez vous à la Newletter'
       )
     }
   }

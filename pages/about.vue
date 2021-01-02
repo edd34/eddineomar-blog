@@ -1,35 +1,39 @@
 <template>
   <div id="about-page" class="page-wrapper about-page content-page">
     <site-hero
-      title="About Us"
+      title="À propos de moi"
       subtitle="Example About Page"
       image="/uploads/about-hero.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <div class="content">
-          <h3>Fake Heading</h3>
+          <h3>Je m'appelle Eddine Omar</h3>
           <p>
+            Mon prénom est
             <strong>
-              Edit this page in<code>/pages/about.vue</code>to fit your needs.
+              Eddine
             </strong>
+            .
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit!
+            Je suis originaire de Mayotte, un département français d'Outre-Mer.
+            Actuellement, je suis un ingénieur en développement logiciel basé à
+            Lyon et diplômé de Polytech 2018. J'adore tout ce qui touche à
+            l'ingénierie logicielle, l'IT, la blockchain, le business, l'Open
+            Source... J'adore résoudre des problèmes, casse-têtes et puzzles, et
+            le développement logiciel permet d'en résoudre plein.
           </p>
 
-          <h3>Another Fake Heading</h3>
+          <h3>Pourquoi ce blog ?</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
-            eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
-            sunt temporibus. Distinctio doloremque eum magni nostrum quasi
-            ratione rem repudiandae sit!
+            Je me pose souvent des questions sur le monde qui m'entoure, je suis
+            quelqu'un de très curieux. Si j'avais un pouvoir, ce serait celui de
+            pouvoir tout comprendre. J'ai décidé de créer ce blog afin de
+            partager et d'apporter à la communauté de la valeur.
           </p>
           <quote-card />
-          <h3>Still More Fake Content</h3>
+          <h3></h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
             eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
@@ -87,7 +91,7 @@
 
       <template v-slot:sidebar>
         <h3 class="subtitle is-4">
-          Latest Posts
+          Derniers posts
         </h3>
         <posts-grid :per-row="1" :number="2" />
       </template>
@@ -99,7 +103,7 @@ import QuoteCard from '~/components/cards/QuoteCard'
 export default {
   head() {
     return {
-      title: `About | ${this.$siteConfig.siteName}`
+      title: `À propos | ${this.$siteConfig.siteName}`
     }
   },
   components: { QuoteCard }
