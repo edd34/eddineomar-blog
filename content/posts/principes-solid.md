@@ -2,7 +2,7 @@
 title: Les principes SOLID en programmation orientée objet
 subtitle: Comment écrire du code orienté objet propre, maintenable et extensible grâce aux principes SOLID ?
 category:
-  - Éléments d'architectures logicielles
+  - Architectures logicielles
 author: Eddine Omar
 date: 2020-01-04T18:00:00.00Z
 featureImage: /uploads/marc-olivier-jodoin-nqoinj-ttqm-unsplash.jpg
