@@ -10,7 +10,7 @@ import theCMS from '../cms/netlify/cms'
  */
 export default {
   siteName: 'Eddine Omar',
-  tagline: 'Code, blockchain et tech !',
+  tagline: 'Code, algos, blockchain et carrière !',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
