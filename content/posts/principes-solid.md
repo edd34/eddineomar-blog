@@ -1,5 +1,5 @@
 ---
-title: Introduction aux principes SOLID en programmation orientée object
+title: Introduction aux principes SOLID en programmation orientée objet
 subtitle: Comment écrire du code propre, maintenable et extensible ?
 category:
   - Les principes SOLID
@@ -85,8 +85,6 @@ Illustration : lorsqu'on exécute la commande `ping google.fr`, celle-ci fonctio
 Les principes SOLID aident à mieux architecturer un projet informatique lorsqu'ils sont compris et bien appliqués.
 Et vous connaissiez-vous ces principes ? Les utilisez-vous au quotidien ? Dites-le moi en commentaire ci-dessous.
 
-Inscrivez-vous à la newsletter pour ne rater aucun article.
-
 ------------------------------------------
 
 Sources :
@@ -94,3 +92,5 @@ Sources :
 * https://www.wikiwand.com/fr/SOLID_(informatique)
 * http://blog.ezoqc.com/5-exemples-faciles-pour-comprendre-les-principes-solid/
 * https://www.wikiwand.com/fr/Programmation_orient%C3%A9e_objet#/overview
+
+Inscrivez-vous à la newsletter pour ne rater aucun article.
