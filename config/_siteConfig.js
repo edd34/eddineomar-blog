@@ -39,6 +39,11 @@ export default {
       name: 'Youtube',
       link: 'https://www.youtube.com/channel/UC_ll5CLLIAgAX4pbEd7OoqQ',
       target: '_blank'
+    },
+    {
+      name: 'LinkedIn',
+      link: 'https://www.linkedin.com/in/eddineomar/',
+      target: '_blank'
     }
   ],
   hero: {
