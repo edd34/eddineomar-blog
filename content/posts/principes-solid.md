@@ -21,7 +21,7 @@ L'acronyme SOLID englobe les principes suivants :
 * **I**nterface segregation principle ou principe de ségrégation des interfaces
 * **D**ependency inversion principle ou principe d'inversion des dépendances
 
-# SOLID
+# SOLID comme du roc
 
 ## Single Responsibility Principle
 "A class should have one reason to change."
