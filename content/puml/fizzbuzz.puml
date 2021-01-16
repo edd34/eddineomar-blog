@@ -1,0 +1,24 @@
+@startuml FizzBuzz
+start
+:Début;
+:N=20;
+note right : N est la borne;
+:i = 1;
+note : i est la variable de note itérateur;
+repeat
+    if (i%3 == 0 et i%5 == 0) then (vrai)
+        :Afficher Fizz Buzz;
+    elseif (i%3 == 0 et i%5 != 0) then (vrai)
+        :Afficher Fizz;
+    elseif (i%3 != 0 et i%5 == 0) then (vrai)
+        :Afficher Buzz;
+    else (sinon \ni%3 != 0 et i%5 != 0 )
+        :Afficher i;
+    endif
+    backward: i += 1;
+    note right : on incrémente i;
+repeat while (tant que i<N)
+:Fin;
+stop
+
+@enduml
